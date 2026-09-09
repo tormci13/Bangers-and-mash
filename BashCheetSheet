@@ -1,0 +1,22 @@
+
+
+## 1. Essential Bash Commands
+
+### Navigation & Directory Control
+* `pwd`: Print working directory (shows exactly where you are).
+* `ls -la`: Lists all files in the current folder, including hidden ones (`.`) in a detailed list format.
+* `cd <directory>`: Change directory. Use `cd ..` to go up one level, or `cd ~` to return home.
+* `mkdir -p path/to/folder`: Creates nested directories in a single command if they don't exist yet.
+
+### File Operations
+* `touch <filename>`: Creates an empty file or updates the modified timestamp of an existing one.
+* `cat <file>`: Reads out and displays the entire contents of a file in the terminal window.
+* `mv <source> <destination>`: Moves or renames files and folders.
+* `rm -rf <file_or_dir>`: **Force deletes** files or directories recursively. *Use with caution!*
+
+### Text Processing & Searching
+* `grep 'search_term' file.txt`: Searches for a specific string inside a file.
+* `find . -name "*.md"`: Searches your current directory and subdirectories for Markdown files.
+* `history`: Displays a numbered list of your recently executed terminal commands.
+
+---
